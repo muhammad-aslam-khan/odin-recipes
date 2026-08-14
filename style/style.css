@@ -4,7 +4,7 @@ a {
         color: white;
     }
 body {
-    width: 800px;
+    width: 80%;
     margin: auto;
     background-color: rgb(240, 235, 228);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,6 +19,7 @@ body {
 }
 .recipes-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .recipes-list li {
@@ -28,6 +29,7 @@ body {
     padding: 10px 15px;
     border-radius: 7px;
     text-align: center;
+    margin: 20px 0px;
 }
 
 /* ======================== */

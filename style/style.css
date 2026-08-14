@@ -1,0 +1,103 @@
+/* GLobal settings for every page */
+a {
+        text-decoration: none;
+        color: white;
+    }
+body {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(240, 235, 228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(1, 72, 44, 0.855);
+}
+
+/* ===================== */
+/* Styling of index.html */
+.title {
+    text-align: center;
+    padding: 50px;
+}
+.recipes-list {
+    display: flex;
+    justify-content: space-between;
+}
+.recipes-list li {
+    list-style: none;
+    width:auto;
+    background-color: rgb(2, 98, 139);
+    padding: 10px 15px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* ======================== */
+/* Styling of Recipes Pages */
+header {
+    /* width: 120%; */
+    background-color: rgb(140, 41, 41);
+    text-align: center;
+    padding: 10px;
+    border-radius: ;
+}
+.recipe-title {
+    padding: 10px;
+    border: 0.5px solid rgb(140, 41, 41);
+    border-radius: 7px;
+    font-variant: small-caps;
+    font-weight: 300;
+    text-align: center;
+    /* Here setting text-align is important because margin 
+    will set the whole block but not the text inside the block. */
+}
+h2,
+h3 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid white;
+    font-variant: small-caps;
+    font-weight: 400;
+}
+.image {
+    /* border: 1px solid; */
+}
+img {
+    display: block; 
+    /* Image is inline element by default and we have to set
+    it block to centre align it from margin.*/
+    margin: 0px auto;
+    border-radius: 15px;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    font-weight: 100;
+}
+.description,
+.ingredients,
+.steps {
+    background-color:rgb(140, 41, 41);
+    color: rgba(232, 237, 232, 1);
+    font-weight: 200;
+    padding: 5%;
+    margin: 2% 0%;
+    border-radius: 15px;
+}
+.ingredients ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ingredients li {
+    width: 20%;
+    list-style: lower-roman;
+    text-align: left;
+    margin: 10px;
+}
+.steps li {
+    
+    list-style: lower-roman;
+    text-align: left;
+    margin: 10px;
+}
